@@ -16,7 +16,9 @@ use App\Http\Controllers\CategoryController;
 // 🏠 Trang chủ
 Route::get('/', [PageController::class, 'getIndex'])->name('banhang.index');
 Route::get('/trangchu', [PageController::class, 'getIndex'])->name('banhang.trangchu');
-
+Route::get('/rr', function () {
+    return view('banhang.dangky')->name('banhang.getSignin');
+});
 // 🔍 Chi tiết sản phẩm
 Route::get('/chitiet/{sanpham_id}', [PageController::class, 'getChiTiet'])->name('banhang.chitiet');
 

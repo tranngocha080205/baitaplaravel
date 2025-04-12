@@ -75,7 +75,7 @@
                         </div>
 
                         <div class="text-center mt-3">
-                        <a href="{{ route('banhang.getSignin') }}">Chưa có tài khoản? Đăng ký ngay</a>
+                        <a href="{{ route('banhang.dangky') }}">Chưa có tài khoản? Đăng ký ngay</a>
                         </div>
                     </div>
                     <div class="col-sm-3"></div>
